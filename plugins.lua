@@ -6,6 +6,9 @@ local plugins = {
     opts = {
       ensure_installed = {
         "rust-analyzer",
+        "csharp-language-server",
+        "vue-language-server",
+        "svelte-language-server",
       },
     },
   },
