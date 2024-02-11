@@ -4,5 +4,6 @@ local capabilities = require("plugins.configs.lspconfig").capabilities
 
 local lspconfig = require("lspconfig")
 lspconfig.csharp_ls.setup{}
+lspconfig.svlangserver.setup{}
 local util = require "lspconfig/util"
 
